@@ -4,31 +4,153 @@
 	-webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
-          border: 1px solid red;
+          font-family: sans-serif;
+}
+
+span {
+	font-weight: bold;
 }
 
 #container {
 	margin: 0px auto;
 	width: 930px;
+	background-color: black;
 }
 
 #top-bar {
-	height: 150px;
+	height: 110px;
+	background-color: white;
+
 }
+
+	.logo	{
+
+	}
+
+	.phone {
+		display: inline-block;
+		vertical-align: top;
+		margin-left: 200px;
+		padding-top: 5px;
+		margin-bottom: 0px;
+	}
+
+	.navbar{
+		border-top: 1px solid black;
+		margin: 0px;
+		background: linear-gradient(white,white,white,gray);
+
+	}
+
+	.navbar ul {
+
+	}
+
+	.navbar li {
+		display: inline;
+		border-right: 1px solid gray;
+		margin: 8px, 0px;
+		padding-bottom: 5px;
+	}
+
+	.navbar li:first-child {
+		border-left: 1px solid gray;
+	}
+
+	.navbar a {
+		text-decoration: none;
+		font-size: 12px;
+		color: gray;
+		margin: 12px;
+	}#CCC57A
 
 #middle-content {
 	height: 350px;
+	margin-top: 10px;
+
 }
+
+	 	.bigphoto {
+			display: inline-block;
+			height: 300px;
+			width: 360px;
+			margin-left: 8px;
+			margin-right: 10px;
+			margin-top: 10px
+		}
+
+		.about {
+			display: inline-block;
+			vertical-align: top;
+			width: 540px;
+			height: 300px;
+			background-color: gray;
+			margin-top: 10px;
+		}
+		.about	h4 {
+			margin: 0px;
+			background-color: #DBCC27;
+			padding: 10px;
+		}
+
+		.about h5 {
+			padding-left: 15px;
+			color: white;
+		}
+
+		.about p  {
+			padding-left: 15px;
+			font-size: 13px;
+			color: white;
+			padding-right: 20px
+		}
+
+		.baby	{
+			margin: 18px;
+		}
+
+		#middle-content h6 {
+			display: inline-block;
+			vertical-align: top;
+			margin: 18px;
+			color: #CCC57A;
+		}
 
 #bottom-content {
 	height: 300px;
-	padding-left: 20px;
+	padding-left:0px;
 }
 
 .box {
 	height: 280px;
 	width: 220px;
 	display: inline-block;
-	margin: 0, auto;
+	margin-left: 8px;
+	vertical-align: top;
+	background-color: white;
 
 }
+	.box h4 {
+		background-color: #DBCC27;
+		margin: 0px;
+		padding-left: 10px;
+		height: 23px;
+		padding-top: 5px;
+	}
+	.box p{
+		height: 100px;
+		padding: 5px;
+		font-size: 12px;
+		margin: 5px;
+		background-color: white;
+	}
+	.box img {
+		height: 100px;
+	}
+
+	.box button	{
+		margin-left: 120px;
+		background-color: #E6C04E;
+		border-color: black;
+		border-radius: 5px;
+	}
